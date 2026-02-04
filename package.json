@@ -1,0 +1,29 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "OrangeHRMTestClaude",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sallysedkey87/OrangeHRMTestClaude.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sallysedkey87/OrangeHRMTestClaude/issues"
+  },
+  "homepage": "https://github.com/Sallysedkey87/OrangeHRMTestClaude#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "dotenv": "^17.2.3"
+  }
+}
